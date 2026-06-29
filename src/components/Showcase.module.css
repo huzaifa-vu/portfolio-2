@@ -60,7 +60,7 @@
 /* Grid Layout */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 30px;
 }
 
@@ -199,6 +199,29 @@
 @media (max-width: 768px) {
   .modalContent {
     grid-template-columns: 1fr;
+    max-height: 95vh;
+  }
+  
+  .modalMedia {
+    min-height: 250px;
+  }
+  
+  .modalBody {
+    padding: 24px;
+  }
+  
+  .modalTitle {
+    font-size: 1.7rem;
+    margin-bottom: 12px;
+  }
+  
+  .modalDesc {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+  
+  .tagGroup {
+    margin-bottom: 24px;
   }
 }
 
